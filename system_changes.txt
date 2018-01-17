@@ -1,0 +1,21 @@
+***************************************************
+*System Change log
+***************************************************
+O/S: Raspbian v???
+Hardware: PiZero W
+
+Packages Downloaded:
+???   Reason   1-Date-2018
+
+Configuration Changes Made:
+wlan0.cfg changed DNS setting  1-Date-2018
+
+Other/Documentation:
+system_changes.txt  1-16-2018
+
+
+
+
+Log
+---------------------------------------------------
+Ben  Created/submitted change log   1-16-2018
