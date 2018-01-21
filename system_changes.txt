@@ -1,15 +1,34 @@
 ***************************************************
 *System Change log
 ***************************************************
-O/S: Raspbian v???
+O/S: Raspbian v9
 Hardware: PiZero W
-
+---------------------------------------------------
 Packages Downloaded:
 ???   Reason   1-Date-2018
+git-core   git client    1-21-2018
+Raspbian upgrade (sudo apt get upgrade)   1-21-2018
+  apt apt-transport-https apt-utils base-files bind9-host bluez bluez-firmware    
+  curl dbus dhcpcd5 gnupg gnupg-agent gpgv iproute2 libapt-inst2.0
+  libapt-pkg5.0 libbind9-140 libcurl3 libcurl3-gnutls libdb5.3 libdbus-1-3
+  libdns-export162 libdns162 libgnutls30 libgssapi-krb5-2 libicu57 libidn2-0
+  libisc-export160 libisc160 libisccc140 libisccfg140 libk5crypto3 libkrb5-3
+  libkrb5support0 libldap-2.4-2 libldap-common liblwres141 libncurses5
+  libncursesw5 libperl5.24 libpython2.7-minimal libpython2.7-stdlib
+  libraspberrypi-bin libraspberrypi-dev libraspberrypi-doc libraspberrypi0
+  libsqlite3-0 libssl1.0.2 libssl1.1 libtinfo5 libwbclient0 libxml2
+  linux-libc-dev ncurses-base ncurses-bin ncurses-term openssh-client
+  openssh-server openssh-sftp-server openssl perl perl-base perl-modules-5.24
+  python2.7 python2.7-minimal raspberrypi-bootloader raspberrypi-kernel
+  raspberrypi-sys-mods raspi-config raspi-copies-and-fills rsync samba-common
+  sensible-utils ssh tzdata vim vim-common vim-runtime vim-tiny wget
+  wpasupplicant xkb-data xxd
+WiringPi (cd /opt; sudo git clone git://git.drogon.net/wiringPi) GPIO pin software    1-21-2018  
 
+---------------------------------------------------
 Configuration Changes Made:
-wlan0.cfg changed DNS setting  1-Date-2018
-
+sshd_config changed Port setting to 22123  1-21-2018
+---------------------------------------------------
 Other/Documentation:
 system_changes.txt  1-16-2018
 
@@ -19,3 +38,5 @@ system_changes.txt  1-16-2018
 Log
 ---------------------------------------------------
 Ben  Created/submitted change log   1-16-2018
+Tim  DDNS magic    1-21-2018
+Ben  Updated Rasbian/Installed WiringPi    1-21-2018
