@@ -28,6 +28,7 @@ WiringPi (cd /opt; sudo git clone git://git.drogon.net/wiringPi) GPIO pin softwa
 ---------------------------------------------------
 Configuration Changes Made:
 sshd_config changed Port setting to 22123  1-21-2018
+Changed link on /etc/alternatives/editor to /usr/bin/vim.basic
 ---------------------------------------------------
 Other/Documentation:
 system_changes.txt  1-16-2018
@@ -40,3 +41,4 @@ Log
 Ben  Created/submitted change log   1-16-2018
 Tim  DDNS magic    1-21-2018
 Ben  Updated Rasbian/Installed WiringPi    1-21-2018
+Ben  Changed default text editor, created ssh key for github
