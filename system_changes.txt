@@ -2,8 +2,17 @@
 *System Change log
 ***************************************************
 O/S: Raspbian v9
-Hardware: PiZero W
+Hardware: 
+  Processor - Raspberry PiZero W
+  Robotshop.com order:
+    PCA9685 16-Channel 12-Bit PWM Servo Driver
+    Product Code: RB-Suf-28	Qty 1	USD$11.99
+ 
+    EzRobot Heavy Duty Servo
+    Product Code: RB-Ezr-17     Qty 1	USD$14.99
 ---------------------------------------------------
+Software:
+
 Packages Downloaded:
 ???   Reason   1-Date-2018
 git-core   git client    1-21-2018
@@ -42,3 +51,4 @@ Ben  Created/submitted change log   1-16-2018
 Tim  DDNS magic    1-21-2018
 Ben  Updated Rasbian/Installed WiringPi    1-21-2018
 Ben  Changed default text editor, created ssh key for github
+Ben  Updated harware section with new devices
