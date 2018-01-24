@@ -52,3 +52,4 @@ Tim  DDNS magic    1-21-2018
 Ben  Updated Rasbian/Installed WiringPi    1-21-2018
 Ben  Changed default text editor, created ssh key for github
 Ben  Updated harware section with new devices
+Ben  Moved repo to Gitlab
