@@ -121,3 +121,8 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	AllowTcpForwarding no
 #	PermitTTY no
 #	ForceCommand cvs server
+
+# Allow local SSH as user pi
+Match User pi Address 10.0.0.*
+	PasswordAuthentication yes
+
