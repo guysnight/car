@@ -34,6 +34,33 @@ Raspbian upgrade (sudo apt get upgrade)   1-21-2018
   wpasupplicant xkb-data xxd
 WiringPi (cd /opt; sudo git clone git://git.drogon.net/wiringPi) GPIO pin software    1-21-2018  
 
+sudo apt-get install motion
+The following NEW packages will be installed:
+  ffmpeg fontconfig-config fonts-dejavu-core libaacs0 libass5 libasyncns0
+  libavc1394-0 libavcodec57 libavdevice57 libavfilter6 libavformat57
+  libavresample3 libavutil55 libbdplus0 libbluray1 libbs2b0 libcaca0 libcairo2
+  libcdio-cdda1 libcdio-paranoia1 libcdio13 libchromaprint1 libdc1394-22
+  libdrm-amdgpu1 libdrm-freedreno1 libdrm-nouveau2 libdrm-radeon1 libebur128-1
+  libegl1-mesa libfftw3-double3 libflac8 libflite1 libfontconfig1 libfribidi0
+  libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libgme0 libgraphite2-3
+  libgsm1 libharfbuzz0b libice6 libiec61883-0 libjack-jackd2-0 libllvm3.9
+  libmariadbclient18 libmp3lame0 libmpg123-0 libogg0 libopenal-data libopenal1
+  libopencv-core2.4v5 libopencv-imgproc2.4v5 libopenjp2-7 libopenmpt0 libopus0
+  libpgm-5.2-0 libpixman-1-0 libpostproc54 libpq5 libpulse0 libraw1394-11
+  librubberband2 libsdl2-2.0-0 libsensors4 libshine3 libsm6 libsnappy1v5
+  libsndfile1 libsndio6.1 libsodium18 libsoxr0 libspeex1 libssh-gcrypt-4
+  libswresample2 libswscale4 libtheora0 libtwolame0 libtxc-dxtn-s2tc
+  libva-drm1 libva-x11-1 libva1 libvdpau-va-gl1 libvdpau1 libvorbis0a
+  libvorbisenc2 libvorbisfile3 libvpx4 libwavpack1 libwayland-client0
+  libwayland-cursor0 libwayland-egl1-mesa libwayland-server0 libwebp6
+  libwebpmux2 libx11-xcb1 libx264-148 libx265-95 libxcb-dri2-0 libxcb-dri3-0
+  libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shape0 libxcb-shm0
+  libxcb-sync1 libxcb-xfixes0 libxcursor1 libxdamage1 libxfixes3 libxi6
+  libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxss1
+  libxtst6 libxv1 libxvidcore4 libxxf86vm1 libzmq5 libzvbi-common libzvbi0
+  mesa-va-drivers mesa-vdpau-drivers motion mysql-common va-driver-all
+  vdpau-driver-all x11-common
+0 upgraded, 132 newly installed, 0 to remove and 10 not upgraded.
 ---------------------------------------------------
 Configuration Changes Made:
 sshd_config changed Port setting to 22123  1-21-2018
