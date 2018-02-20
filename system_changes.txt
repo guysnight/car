@@ -61,6 +61,35 @@ The following NEW packages will be installed:
   mesa-va-drivers mesa-vdpau-drivers motion mysql-common va-driver-all
   vdpau-driver-all x11-common
 0 upgraded, 132 newly installed, 0 to remove and 10 not upgraded.
+
+2-19-18 apt-get install chromium
+  adwaita-icon-theme at-spi2-core dconf-gsettings-backend dconf-service
+  fontconfig gconf-service gconf2-common glib-networking
+  glib-networking-common glib-networking-services gnome-icon-theme
+  gsettings-desktop-schemas gtk-update-icon-cache hicolor-icon-theme
+  libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatspi2.0-0
+  libauthen-sasl-perl libavahi-client3 libcairo-gobject2 libcolord2 libcroco3
+  libcups2 libdatrie1 libdbus-glib-1-2 libdconf1 libencode-locale-perl
+  libepoxy0 libfile-basedir-perl libfile-desktopentry-perl
+  libfile-listing-perl libfile-mimeinfo-perl libfont-afm-perl libfontenc1
+  libgail-common libgail18 libgconf-2-4 libgdk-pixbuf2.0-0
+  libgdk-pixbuf2.0-common libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk2.0-0
+  libgtk2.0-bin libgtk2.0-common libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libio-html-perl
+  libipc-system-simple-perl libjbig0 libjson-glib-1.0-0
+  libjson-glib-1.0-common liblcms2-2 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libnet-dbus-perl
+  libnet-http-perl libnet-smtp-ssl-perl libnspr4 libnss3 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libproxy1v5 librest-0.7-0 librsvg2-2
+  librsvg2-common libsoup-gnome2.4-1 libsoup2.4-1 libthai-data libthai0
+  libtie-ixhash-perl libtiff5 libtimedate-perl liburi-perl libwww-perl
+  libwww-robotrules-perl libx11-protocol-perl libxaw7 libxcb-image0
+  libxcb-util0 libxcomposite1 libxft2 libxml-parser-perl libxml-twig-perl
+  libxml-xpathengine-perl libxmu6 libxpm4 libxt6 libxxf86dga1 x11-utils
+  x11-xserver-utils xdg-utils
+
 ---------------------------------------------------
 Configuration Changes Made:
 sshd_config changed Port setting to 22123  1-21-2018
@@ -80,3 +109,4 @@ Ben  Updated Rasbian/Installed WiringPi    1-21-2018
 Ben  Changed default text editor, created ssh key for github
 Ben  Updated harware section with new devices
 Ben  Moved repo to Gitlab
+Installed chromium-browser  2-19-18
